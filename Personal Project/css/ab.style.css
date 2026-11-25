@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f8;
+    color: #342c26;
+}
+
+.announcement {
+    background-color: #d8c7b7;
+    text-align: center;
+    padding: 12px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 6%;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #342c26;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.hero{
+    height: 550px;
+    background: linear-gradient(rgba(0,0,0,0.1) rgba(0,0,0,0.1)),
+    url("images/main.avif") cover/center;
+    display: flex;
+    align-items: center;
+    padding: 8%;
+}
+
+.hero-text{
+    color: black;
+}
+
+.hero-text p{
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.hero h1{
+    font-size: 55px;
+    margin: 21px;
+}
+
+.pic{
+    height: 450px;
+    object-fit: cover;
+}
+
+
+#heading{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.p-text{
+    display: right;
+    padding: right;
+}
+
+.paragraf{
+    text-align: center;
+    padding: 50px;
+}
+
+.img {
+ margin-left: 24px;
+}
+
+.container{
+    display: flex;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.abt-text{
+    padding-top: 52px;
+}
+
+footer {
+    background-color: #d8c7b7;
+    padding: 50px;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
